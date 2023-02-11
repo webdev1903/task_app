@@ -145,10 +145,13 @@ export default function Register() {
       </form>
       <p className="text-sm text-customgray font-sans text-center mt-5 mb-2">
         Already have an account?
-        <a href="/login" className="font-bold text-black">
+        <span
+          className="font-bold text-black"
+          onClick={() => router.push("/login")}
+        >
           {" "}
           Login
-        </a>
+        </span>
       </p>
     </div>
     // </div>
