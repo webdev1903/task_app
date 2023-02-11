@@ -33,7 +33,7 @@ export default function Home({ data }) {
     };
     let res = await axios.post(
       "https://taskstore.onrender.com/tasks",
-      { task },
+      { task, time: current },
       config
     );
     // console.log("newTask", res);
