@@ -146,7 +146,7 @@ export default function Register() {
       <p className="text-sm text-customgray font-sans text-center mt-5 mb-2">
         Already have an account?
         <span
-          className="font-bold text-black"
+          className="font-bold text-black cursor-pointer"
           onClick={() => router.push("/login")}
         >
           {" "}
