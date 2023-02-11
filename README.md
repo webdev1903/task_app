@@ -1,3 +1,9 @@
+Deployed Link : [https://visionary-sunshine-e28628.netlify.app]
+
+This is a simple task app made with next js where a user can authenticate themselves and use the task dashboard. A user can only add 5 tasks in a day.
+
+The next-auth package has been used in this project to authenticate and persist the logged in user.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
